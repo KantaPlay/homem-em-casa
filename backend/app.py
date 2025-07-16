@@ -10,7 +10,7 @@ from functools import wraps
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'sua-chave-secreta-super-segura-marido-aluguel-2024'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///marido_aluguel.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///homem_em_casa.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB
